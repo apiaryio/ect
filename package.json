@@ -10,7 +10,7 @@
 		"url": "git://github.com/baryshev/ect.git"
 	},
 	"dependencies": {
-		"coffee-script": "1.5.0"
+		"coffee-script": ""
 	},
 	"engines" : { "node": ">= 0.4.0" }
 }
