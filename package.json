@@ -1,6 +1,6 @@
 {
 	"name" : "ect",
-	"version" : "0.5.9-layout",
+	"version" : "0.5.9-browser",
 	"description" : "CoffeeScript template engine",
 	"homepage" : "http://ectjs.com",
 	"keywords" : [ "template", "coffeescript" ],
