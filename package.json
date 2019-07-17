@@ -1,17 +1,19 @@
 {
-	"name" : "ect",
-	"version" : "0.5.9-layout-server",
+	"name" : "@apiaryio/ect",
+	"version" : "1.0.0",
 	"description" : "CoffeeScript template engine",
-	"homepage" : "http://ectjs.com",
-	"keywords" : [ "template", "coffeescript" ],
+	"engines" : { "node" : ">= 0.4.0" },
 	"author" : "Vadim M. Baryshev <vadimbaryshev@gmail.com>",
-	"main" : "./index",
+  "license": "MIT",
+	"main" : "./index.js",
 	"repository" : {
 		"type" : "git",
-		"url" : "git://github.com/baryshev/ect.git"
+		"url" : "git://github.com/apiaryio/ect.git"
 	},
 	"dependencies" : {
-		"coffee-script" : ""
+		"coffee-script" : "^1.12.2"
 	},
-	"engines" : { "node" : ">= 0.4.0" }
+  "publishConfig": {
+    "registry": "https://registry.apiary-internal.com"
+  }
 }
