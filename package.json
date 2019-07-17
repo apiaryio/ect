@@ -1,6 +1,6 @@
 {
 	"name" : "@apiaryio/ect",
-	"version" : "1.0.0",
+	"version" : "1.0.1",
 	"description" : "CoffeeScript template engine",
 	"engines" : { "node" : ">= 0.4.0" },
 	"author" : "Vadim M. Baryshev <vadimbaryshev@gmail.com>",
@@ -11,7 +11,7 @@
 		"url" : "git://github.com/apiaryio/ect.git"
 	},
 	"dependencies" : {
-		"coffee-script" : "^1.12.2"
+		"coffee-script" : "^1.11.1"
 	},
   "publishConfig": {
     "registry": "https://registry.apiary-internal.com"
